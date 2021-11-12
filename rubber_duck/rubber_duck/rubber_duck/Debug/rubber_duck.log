@@ -1,4 +1,1 @@
-﻿  rubber_duck.cpp
-  SMFLoader.cpp
-  正在產生程式碼...
-  rubber_duck.vcxproj -> C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\rubber_duck\rubber_duck\Debug\rubber_duck.exe
+﻿LINK : fatal error LNK1104: 無法開啟檔案 'freeglutd.lib'

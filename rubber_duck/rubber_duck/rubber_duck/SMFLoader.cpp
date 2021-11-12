@@ -40,6 +40,7 @@ void SMFLoader::load(char* filename)
 	vertexSize = 1024;
 	faceSize = 1024;
 	colorSize = 1024;
+	normalSize = 1024;
 
 	vertex = new float[vertexSize * 3];
 	face = new int[faceSize * 3];
@@ -105,23 +106,23 @@ void SMFLoader::load(char* filename)
 				delete tmp;
 			}
 			break;
-			/*
-			case 'n':
-				fin >> normal[normalCnt * 3];
-				fin >> normal[normalCnt * 3 + 1];
-				fin >> normal[normalCnt * 3 + 2];
 
-				normalCnt++;
-				if (normalCnt >= normalSize)
-				{
-					float* tmp = normal;
-					normal = new float[normalSize * 3 * 4];
-					memcpy(normal, tmp, sizeof(float) * normalCnt * 3);
-					normalSize = normalSize * 4;
-					delete tmp;
-				}
-				break;
-			*/
+		case 'n':
+			fin >> normal[normalCnt * 3];
+			fin >> normal[normalCnt * 3 + 1];
+			fin >> normal[normalCnt * 3 + 2];
+
+			normalCnt++;
+			if (normalCnt >= normalSize)
+			{
+				float* tmp = normal;
+				normal = new float[normalSize * 3 * 4];
+				memcpy(normal, tmp, sizeof(float) * normalCnt * 3);
+				normalSize = normalSize * 4;
+				delete tmp;
+			}
+			break;
+
 		default:
 			fin.getline(temp, 256);
 			cout << temp << endl;

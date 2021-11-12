@@ -8,24 +8,20 @@
 
 using namespace std;
 
-static int lower_arm_h = 1;
-
-static int base_angle = 0;
-
-
 
 void display(void)
 {
 	glClearColor(0, 150, 150, 0.0);
-	glClear(GL_COLOR_BUFFER_BIT);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-
+	
 	glRotatef(90.0f, 0.0f, 1.0f, 0.0f);
-	glRotatef(0.0f, 45.0f, 0.0f, 0.0f);
+	//glRotatef(0.0f, 45.0f, 0.0f, 0.0f);
 
 	glOrtho(-500, 500, -500, 500, -500, 500);
 
+	/*
 	glBegin(GL_QUADS);
 
 	glColor3f(0.0, 0.0, 0.0);
@@ -35,6 +31,7 @@ void display(void)
 	glVertex3f(0, 200, 200);
 
 	glEnd();
+	*/
 
 	SMFLoader loader;   //(2) declare SMFLoader
 
@@ -66,25 +63,24 @@ void display(void)
 
 		glBegin(GL_TRIANGLES);
 
+		glNormal3f(normal[0], normal[1], normal[2]);
 		if (color)
 			glColor3f(255, 255, 0);
-		//glColor3f(color[0], color[1], color[2]);
-	//if(normal)
-	//	glNormal3f(normal[0], normal[1], normal[2]);
+			//glColor3f(color[0], color[1], color[2]);
 		glVertex3f(vertex[0], vertex[1], vertex[2]);
 
+
+		glNormal3f(normal[3], normal[4], normal[5]);
 		if (color)
 			glColor3f(255, 255, 0);
 		//glColor3f(color[3], color[4], color[5]);
-	//if (normal)
-	//	glNormal3f(normal[3], normal[4], normal[5]);
 		glVertex3f(vertex[3], vertex[4], vertex[5]);
 
+
+		glNormal3f(normal[6], normal[7], normal[8]);
 		if (color)
 			glColor3f(255, 255, 0);
 		//glColor3f(color[6], color[7], color[8]);
-	//if (normal)
-	//	glNormal3f(normal[6], normal[7], normal[8]);
 		glVertex3f(vertex[6], vertex[7], vertex[8]);
 
 		glEnd();
@@ -97,6 +93,24 @@ void display(void)
 	glutSwapBuffers();
 }
 
+void init(void)
+{
+	glClearColor(0.0, 0.0, 0.0, 0.0);
+	glShadeModel(GL_FLAT);
+
+	GLfloat light_position[] = { 100.0, 100.0, 100.0, 0.0 };
+	GLfloat light_ambient[] = { 0.0, 0.0, 0.0, 1.0 };
+	GLfloat light_diffuse[] = { 1.0, 1.0, 1.0, 1.0 };
+	GLfloat light_specular[] = { 1.0, 1.0, 1.0, 1.0 };
+	glLightfv(GL_LIGHT0, GL_POSITION, light_position);
+	glLightfv(GL_LIGHT0, GL_AMBIENT, light_ambient);
+	glLightfv(GL_LIGHT0, GL_DIFFUSE, light_diffuse);
+	glLightfv(GL_LIGHT0, GL_SPECULAR, light_specular);
+	glEnable(GL_LIGHTING);
+	glEnable(GL_LIGHT0);
+	glEnable(GL_DEPTH_TEST);
+}
+
 int main(int argc, char* argv[])
 {
 	//初始化
@@ -107,6 +121,7 @@ int main(int argc, char* argv[])
 	glutInitWindowSize(1000, 1000);
 	//設定視窗顯示名稱
 	glutCreateWindow("HW3");
+	init();
 	glutDisplayFunc(display);
 
 	/*
