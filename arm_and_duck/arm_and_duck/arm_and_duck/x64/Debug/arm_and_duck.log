@@ -1,0 +1,31 @@
+﻿  arm_and_duck.cpp
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(45,25): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(156,21): warning C4305: '+=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(166,21): warning C4305: '-=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(174,20): warning C4305: '+=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(254,27): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(257,21): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(258,40): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(258,21): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(259,33): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(279,55): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(281,57): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(289,59): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(291,61): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(299,59): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(301,61): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(309,59): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(335,43): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(335,19): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(338,20): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(339,12): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(342,20): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(343,12): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(344,12): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(347,20): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(350,34): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(354,34): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(360,19): warning C4305: '-=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(375,12): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\arm_and_duck\arm_and_duck.cpp(376,12): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+  arm_and_duck.vcxproj -> C:\Users\polin\Desktop\GITHUB\Computational-Photography_HW3\arm_and_duck\arm_and_duck\x64\Debug\arm_and_duck.exe

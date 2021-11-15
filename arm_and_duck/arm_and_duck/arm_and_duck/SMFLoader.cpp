@@ -106,7 +106,7 @@ void SMFLoader::load(char* filename)
 				delete tmp;
 			}
 			break;
-			
+
 		case 'n':
 			fin >> normal[normalCnt * 3];
 			fin >> normal[normalCnt * 3 + 1];
@@ -122,7 +122,7 @@ void SMFLoader::load(char* filename)
 				delete tmp;
 			}
 			break;
-			
+
 		default:
 			fin.getline(temp, 256);
 			cout << temp << endl;
