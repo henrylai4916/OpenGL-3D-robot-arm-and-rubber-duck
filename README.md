@@ -2,9 +2,9 @@
 ## Computational-Photography_HW3
 
 ## 作業內容：
-	1.建立一個3D場景：
-		a.建立一個平面，將機械手臂和鴨子放在上面。
-		b.調整固定視角，可以方便看到平面上放的物體。
+###　1.建立一個3D場景：
+	a.建立一個平面，將機械手臂和鴨子放在上面。
+	b.調整固定視角，可以方便看到平面上放的物體。
 
 
 https://user-images.githubusercontent.com/72666141/146047093-ca42a9c2-fd4d-42d5-a0ff-448fd7ab33ac.mp4
