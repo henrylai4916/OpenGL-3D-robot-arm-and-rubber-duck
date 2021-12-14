@@ -1,5 +1,6 @@
-# Computational-Photography_HW3
-# robot arm and rubber dock
+# OpenGL 3D robot arm and rubber dock 
+## Computational-Photography_HW3
+
 ## 姓名：賴柏霖
 ## 學號：609410151
 ## e-mail：609410151@alum.ccu.edu.tw
