@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/72666141/146047093-ca42a9c2-fd4d-42d5-
 ---
 
 ### 2. 製作3D機械手臂，包含以下功能：
-	![image](https://user-images.githubusercontent.com/72666141/141769732-add5e6f8-f363-40b4-878e-267363b78e9f.png)
+![image](https://user-images.githubusercontent.com/72666141/141769732-add5e6f8-f363-40b4-878e-267363b78e9f.png)
 	a. 機械手臂的構造包含：底座、上臂、前臂、夾子(手)
 	b. 利用鍵盤，可以控制機械手臂，包含：底座旋轉(base angle)、手臂關節角度(elbow angle)、手腕旋轉(wrist rotation)、夾子開關(claw open/close)。
 	c. 機械手臂的底座需要像夾娃娃機一樣，可以自由在平面上移動位置。
