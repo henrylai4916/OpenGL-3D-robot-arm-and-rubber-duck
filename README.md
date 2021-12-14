@@ -25,20 +25,19 @@ https://user-images.githubusercontent.com/72666141/146047093-ca42a9c2-fd4d-42d5-
 
 https://user-images.githubusercontent.com/72666141/146048024-890678f4-c46a-4bf3-aaef-0a5f00e24535.mp4
 
-
-
+---
 	
-###	3.放置3D黃色小鴨：
-	a.load小鴨模組，使用smf檔案
+### 3. 放置3D黃色小鴨：
+	a. load小鴨模組，使用smf檔案
 
-###	4.場景光源設定，至少兩個光源(場景定點光源、可調控的聚光燈)：
+### 4. 場景光源設定，至少兩個光源(場景定點光源、可調控的聚光燈)：
 	a.環境光：場景定點光源，固定對整個場景打光。
 	b.可調控的聚光燈：初始位置，從機械手臂的正上方往下照。
 	c.利用鍵盤，可以控制光源的顏色(紅、藍、綠)及方向(類似手電筒)。
-###	![image](https://user-images.githubusercontent.com/72666141/141769541-e969fcfa-bac3-426d-b284-f7c91b9f31db.png)
+	d. 按鍵功能：
+		-L：改變聚光燈顏色(預設白光，每按一次，依序變紅、藍、綠、白)
+		-G、B、H、N：調整機械手臂的位置
+		-J、M、I、K：調整聚光燈的方向(聚光點位置不變，照射的方向改變，類似手電筒)
+![image](https://user-images.githubusercontent.com/72666141/141769541-e969fcfa-bac3-426d-b284-f7c91b9f31db.png)
 
-###	5.按鍵功能的配置範例，(配置方法不限，可自行更動設定，但請在readme中將功能描述清楚)：
-	
-	-L：改變聚光燈顏色(預設白光，每按一次，依序變紅、藍、綠、白)
-	-G、B、H、N：調整機械手臂的位置
-	-J、M、I、K：調整聚光燈的方向(聚光點位置不變，照射的方向改變，類似手電筒)
+https://user-images.githubusercontent.com/72666141/146048558-74e92b1b-5857-4c3c-90b8-0df76f986f7c.mp4
