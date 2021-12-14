@@ -1,15 +1,14 @@
 # OpenGL 3D robot arm and rubber dock 
 ## Computational-Photography_HW3
 
-## 姓名：賴柏霖
-## 學號：609410151
-## e-mail：609410151@alum.ccu.edu.tw
-## 作業環境：Win10 64bit Visual studio 2019
-## 編譯器：Visual Studio 2019
 ## 作業內容：
-###	1.建立一個3D場景：
-	a.建立一個平面，將機械手臂和鴨子放在上面。
-	b.調整固定視角，可以方便看到平面上放的物體。
+	1.建立一個3D場景：
+		a.建立一個平面，將機械手臂和鴨子放在上面。
+		b.調整固定視角，可以方便看到平面上放的物體。
+
+
+https://user-images.githubusercontent.com/72666141/146047093-ca42a9c2-fd4d-42d5-a0ff-448fd7ab33ac.mp4
+
 
 ###	2.製作3D機械手臂，包含以下功能：
 	a.機械手臂的構造包含：底座、上臂、前臂、夾子(手)
