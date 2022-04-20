@@ -1,7 +1,9 @@
 # OpenGL 3D robot arm and rubber dock 
-## Computational-Photography_HW3
+## 計算攝影學：應用圖學與影像技術_HW3
+## Deom
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/72666141/164231452-f68fbaad-1c60-46e0-9fff-cf64c104d83c.JPG)](https://www.youtube.com/watch?v=GRcNxCQtLs0)
 
-## 作業內容：
+## 實現功能：
 ### 1. 建立一個3D場景：
 	a. 建立一個平面，將機械手臂和鴨子放在上面。
 	b. 調整固定視角，可以方便看到平面上放的物體。
