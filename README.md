@@ -1,4 +1,4 @@
-# OpenGL 3D robot arm and rubber dock 
+# OpenGL 3D robot arm and rubber duck 
 ## 計算攝影學：應用圖學與影像技術_HW3
 ## Demo影片：
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/72666141/164231452-f68fbaad-1c60-46e0-9fff-cf64c104d83c.JPG)](https://www.youtube.com/watch?v=GRcNxCQtLs0)
